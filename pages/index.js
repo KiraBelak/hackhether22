@@ -7,7 +7,7 @@ export default function Home() {
     
     <div className="container">
       <Head>
-        <title>Create Next App</title>
+        <title>KAFEMA - DEATHRABBIT</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       
@@ -15,9 +15,9 @@ export default function Home() {
       <header>
         <div >
           Death<b>Bunny</b>
-          <div class="dropdown" >
-              <button class="dropdown-btn"> Menu</button>
-              <div class="dropdown-content">
+          <div className={styles.dropdown} >
+              <button className={styles.dropdownbtn} > Menu</button>
+              <div className={styles.dropdownContent}>
               <a href="#">link 1</a>
               <a href="#">link 2</a>
               <a href="#">link 3</a>
