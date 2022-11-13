@@ -13,7 +13,7 @@ export default function Home() {
       <header className={styles.header}>
         <h1 className={styles.namni}> POR y PARA los refugios </h1>
        
-       
+
         </header>
         <div className={styles.navi} >
           Death<b>Bunny</b>
@@ -33,7 +33,7 @@ export default function Home() {
       <br/>
           
             <body  className={styles.body}>
-              <div className={styles.bodyn}>
+              <div className={styles.asoci}>
                 <fieldset>
                     <legend>Añade tu asociación</legend>
                   <form action="">
