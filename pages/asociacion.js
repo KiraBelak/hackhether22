@@ -33,11 +33,13 @@ export default function Home() {
           
             <body  className={styles.body}>
               <div className={styles.bodyn}>
-              <h2>ASOCIACIONES</h2>
-              
-              <form action="">
-
-              </form>
+                <fieldset>
+                    <legend>Añade tu asociación</legend>
+                  <form action="">
+                    
+                  </form>
+                </fieldset>
+               
             </div>
             
             </body>

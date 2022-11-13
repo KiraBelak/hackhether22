@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image';
 import styles from '../styles.module.css'
+import Link from "next/link";
+
 
 export default function Home() {
   return (
@@ -11,17 +13,18 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <header className={styles.header}>
-        <h1> POR y PARA los refugios </h1>
+        <h1 className={styles.namni}> Únete como activista a la causa animal </h1>
        
         </header>
         <div className={styles.navi} >
-          Death<b>Bunny</b>
+          Death<b>Rabbit</b>
           <div className={styles.dropdown} >
               <button className={styles.dropdownbtn} > Menu</button>
               <div className={styles.dropdownContent}>
-              <a href="#">link 1</a>
-              <a href="#">link 2</a>
-              <a href="#">link 3</a>
+                
+              <Link href="#">Cerrar sesion</Link>
+              <Link href="">Mis Donaciones</Link>
+              <a href="/asociacion">Añadir Asociacion</a>
               </div>
               <br/>
           </div>
@@ -33,7 +36,8 @@ export default function Home() {
           
             <body  className={styles.body}>
               <div className={styles.bodyn}>
-              <h2>ASOCIACIONES</h2>
+                
+               
             </div>
             
             </body>
