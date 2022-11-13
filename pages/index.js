@@ -10,10 +10,7 @@ export default function Home() {
         <title>KAFEMA - DEATHRABBIT</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      
-      <body className={styles.body}>
-      <header>
-        <div >
+        <div className={styles.navi} >
           Death<b>Bunny</b>
           <div className={styles.dropdown} >
               <button className={styles.dropdownbtn} > Menu</button>
@@ -25,16 +22,13 @@ export default function Home() {
               <br/>
           </div>
       </div>
-      <Image
-      src="/images/perbunny.jpg" // Route of the image file
-      height={400} // Desired size with correct aspect ratio
-      width={1350} // Desired size with correct aspect ratio
-      alt="Your Name"
-      />
-
+      <header className={styles.header}>
+      <h1> POR y PARA los refugios </h1>
       </header>
-      </body>
+            <body className={styles.body}>
 
+      </body>
+    
     </div>
   )
 }

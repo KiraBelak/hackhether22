@@ -2,11 +2,25 @@
     font-family: 'Raleway', sans-serif;
     background-color: #ccc;
 }
+.header{
+    margin: 0;
+    padding: 0;
+    top: 50px;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    height: 300px;
+    background: -webkit-linear-gradient(to right, hsla(273, 79%, 15%, 0.1), hsla(261, 43%, 45%, 0.1)), url(/images/fon.jpg);   /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(273, 79%, 15%, 0.1), hsla(261, 43%, 45%, 0.1)), url(/images/fon.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: center;
 
+}
 .navi{
     margin: 0;
     padding: 0; 
-    
+    color: white;
+    text-align: start;
     position: fixed;
     top: 0;
     left: 0;
@@ -54,3 +68,6 @@
     .dropdown:hover .dropdownContent{
         display: block;
     }
+
+   
+
