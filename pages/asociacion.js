@@ -13,6 +13,7 @@ export default function Home() {
       <header className={styles.header}>
         <h1 className={styles.namni}> POR y PARA los refugios </h1>
        
+       
         </header>
         <div className={styles.navi} >
           Death<b>Bunny</b>
