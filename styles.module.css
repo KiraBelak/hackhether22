@@ -1,13 +1,15 @@
 .body{
     font-family: 'Raleway', sans-serif;
     background-color: #ccc;
+    
+    
 }
 .header{
     margin: 0;
     padding: 0;
     top: 50px;
     left: 0;
-    position: fixed;
+    position: absolute;
     width: 100%;
     height: 300px;
     background: -webkit-linear-gradient(to right, hsla(273, 79%, 15%, 0.1), hsla(261, 43%, 45%, 0.1)), url(/images/fon.jpg);   /* Chrome 10-25, Safari 5.1-6 */
@@ -69,5 +71,29 @@
         display: block;
     }
 
+    .wave{
+        position: absolute;
+        width: 100%;
+        
+        
+    } 
+    .namni{
+        text-align: center;
+        font-weight: 800;
+        padding-top: 190px;
+        color: #ccc;
+        text-shadow: 1px 2px 2px rgba(255,255,255,1);
+
+    }
+    
+    .bodyn{
+        padding: 0;
+        margin: 0;
+        padding-top: 320px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        text-align: center;
+    }
    
 

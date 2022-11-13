@@ -11,7 +11,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <header className={styles.header}>
-        <h1> POR y PARA los refugios </h1>
+        <h1 className={styles.namni}> POR y PARA los refugios </h1>
        
         </header>
         <div className={styles.navi} >
@@ -34,6 +34,10 @@ export default function Home() {
             <body  className={styles.body}>
               <div className={styles.bodyn}>
               <h2>ASOCIACIONES</h2>
+              
+              <form action="">
+
+              </form>
             </div>
             
             </body>
